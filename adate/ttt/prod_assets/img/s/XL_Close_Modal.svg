@@ -1,0 +1,7 @@
+<svg id="XL_Close_Modal" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <circle  cx="20" cy="20" r="20" fill="#000000"/>
+  <g  transform="translate(-170.918 -289.713) rotate(45)">
+    <path  d="M-185.876,512h16" transform="translate(531.876 -428)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="2"/>
+    <path id="" d="M0,0H16" transform="translate(354 76) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

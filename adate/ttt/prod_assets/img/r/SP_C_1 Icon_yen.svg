@@ -1,0 +1,19 @@
+<svg id="SP_C_1_Icon_yen" data-name="SP_C_1 Icon_yen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="17" viewBox="0 0 16 17">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.574" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffed14"/>
+      <stop offset="1" stop-color="#ff5b05"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="矩形_4630" data-name="矩形 4630" width="10" height="10" transform="translate(0 -0.188)" fill="#64240c"/>
+    </clipPath>
+  </defs>
+  <g id="组_16017" data-name="组 16017">
+    <path id="矩形_5091" data-name="矩形 5091" d="M6,0H16a0,0,0,0,1,0,0V5A12,12,0,0,1,4,17H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z" fill="url(#linear-gradient)"/>
+  </g>
+  <g id="组_16130" data-name="组 16130" transform="translate(3 3.188)" opacity="0.798" style="mix-blend-mode: multiply;isolation: isolate">
+    <g id="组_14103" data-name="组 14103" clip-path="url(#clip-path)">
+      <path id="路径_12089" data-name="路径 12089" d="M9.449,6.953H6.969V5.961h2.48a.5.5,0,1,0,0-.992H7.126l2.7-3.15a.5.5,0,1,0-.753-.646l-2.6,3.033-2.6-3.033a.5.5,0,0,0-.753.646l2.7,3.15H3.5a.5.5,0,0,0,0,.992h2.48v.992H3.5a.5.5,0,0,0,0,.992h2.48V9.433a.5.5,0,0,0,.992,0V7.945h2.48a.5.5,0,1,0,0-.992" transform="translate(-1.473 -0.465)" fill="#64240c"/>
+    </g>
+  </g>
+</svg>

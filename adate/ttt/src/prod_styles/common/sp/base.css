@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/* prod_sp
+============================================================================= */
+
+/***************************************
+   *base
+****************************************/
+body {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", meiryo, "メイリオ", "ms pgothic", "ms pゴシック", YuGothic, "游ゴシック", osaka, sans-serif;
+  font-weight: 300;
+  background-color: #151515;
+  color: #FFF;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+}
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/***************************************
+   *helper
+****************************************/
+.hp_sp ,
+.hp_spTb {
+  display: block!important;
+}
+.hp_pc ,
+.hp_tb {
+  display: none !important;
+}
+.hp_pr12 {
+  padding-right: 12px !important;
+}
+.hp_mb0 {
+  margin-bottom: 0 !important;
+}
+.hp_tac {
+  text-align: center !important;
+}
+.hp_tal {
+  text-align: left !important;
+}
+.hp_pink {
+  color: #FF55CF;
+  font-weight: 600;
+}
+
+/***************************************
+   js plugin
+****************************************/
+.modal {
+  border-radius: 16px !important;
+  box-shadow:-1px -1px 1px 1px rgba(112,112,112, 0.3) !important;
+  backdrop-filter: blur(30px);
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}
+.modal .modal_ttl{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.modal.bl_modal01,
+.modal.bl_modal02 {
+  border-radius: 0;
+  width: 100%;
+  padding: 0;
+}
+.modal.bl_modal01 {
+  position: static;
+}
+.modal.bl_modal02 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  vertical-align: bottom;
+  overflow-y: auto;
+  max-height: 90%;
+}
+.bl_modal01 .bl_modal01_close {
+  top: 10px !important;   /* 後から削除_02 */
+  right: 15px !important; /* 後から削除_02 */
+  z-index: 9999;
+}
+.bl_modal01 .bl_modal01_close,
+.modal.bl_modal02 .bl_modal02_close {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(145deg, #FFFFFF30 100%, #fff 100%) !important;
+  top: -50%;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50vh;
+}
+.bl_modal01 .bl_modal01_close > a,
+.modal.bl_modal02 .bl_modal02_close > a {
+  color: #fff;
+}
+.bl_modal01_inner,
+.bl_modal02_inner {
+  padding: 25px 16px 40px;
+}
+.bl_modal01_inner .bl_modal01_ttl {
+  font-size: 24px;
+}
+.bl_modal01_inner .bl_modal01_img,
+.bl_modal01_inner .bl_modal01_ttl {
+  text-align: center;
+}
+.bl_modal01_inner .bl_modal01_img > img,
+.bl_modal01_inner .bl_modal01_ttl {
+  margin-bottom: 25px;
+}
+.bl_modal01_txt {
+  font-size: 14px;
+  line-height:1.57;
+}

@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+/* prod_pc
+============================================================================= */
+
+/***************************************
+   wrapper
+****************************************/
+.ly_wrapper {
+  display: block;
+  padding-left: 64px;
+  min-height: 100vh;
+}
+
+/***************************************
+   mainエリア
+****************************************/
+.ly_main {
+  min-height: calc(100vh - 80px);
+}
+
+/***************************************
+   innner
+****************************************/
+/*720px固定画面時*/
+.ly_fixedCont_inner {
+  max-width: 760px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*リキッド画面時*/
+.ly_liquidCont_inner {
+  max-width: 100%;
+  padding-left: 2.933vw;
+  padding-right: 2.933vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*リキッド左のみ空白の画面時*/
+.ly_liquidCont_inner.ly_liquidCont_inner__left {
+  padding-right: 0;
+}
+
+/***************************************
+   仮header
+****************************************/
+.ly_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.ly_header_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+/***************************************
+   仮gNav
+****************************************/
+.ly_gNav {
+  background-color: #151515;
+  padding-top: 20px;
+  position: fixed;
+  transition: .3s all;
+  left: 0;
+  width: 64px;
+  height: 100%;
+  z-index: 2;
+}
+.ly_gNav_inner {
+  padding-right: 2px;
+  padding-left: 2px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*ぶら下がりメニュー*/
+.ly_gNav .ly_indent_Menu {
+  display: none;
+}
+.ly_gNav:hover .ly_indent_Menu {
+  display: block;
+}
+.ly_gNav:hover .ly_indent_Menu a {
+  display: block;
+  color: #fff;
+  text-align: left;
+  font-size: 14px;
+  transform: scale(0.8);
+  text-indent: 5em;
+  margin-bottom: .5em;
+  white-space: nowrap;
+}
+.ly_gNav:hover .ly_indent_Menu a:last-child {
+  margin-bottom: 0;
+}
+.ly_gNav:hover {
+  width: 200px;
+}
+.ly_gNav:hover .bl_gNavIconUnit > li {
+  width: 90%;
+}
+.ly_gNav .el_topIcon::before {
+  background-repeat: no-repeat;
+}
+/*hover時*/
+.ly_gNav:hover .el_topIcon {
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  font-size: 14px;
+  width: 170px;
+}
+.ly_gNav:hover .el_topIcon::before {
+  display: flex;
+  width: 40px !important;
+  height: 40px !important;
+  margin: 0;
+  padding-right: 20px
+}
+
+/***************************************
+   その他
+****************************************/
+/*.ly_function {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  z-index: 1;
+}
+.ly_function li {
+  margin-right: 2%;
+  width: 120px;
+}
+.ly_function li:last-child {
+  margin-right: 0;
+}
+.ly_function .el_search {
+  width: 300px;
+}
+.ly_function .el_roundedBtn {
+  padding: 10px 10px !important;
+  line-height: 14px;
+}*/
+
+/***************************************
+  仮footer
+****************************************/
+.ly_footer {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.ly_footer_inner {
+  max-width: 1400px;
+  padding-right: 40px;
+  padding-left: 40px;
+  /*  margin-right: auto;
+    margin-left: auto;*/
+}
+.ly_footerCopyright {
+  /*  padding-top: 16px;
+    padding-bottom: 16px;*/
+  font-size: 10px;
+}

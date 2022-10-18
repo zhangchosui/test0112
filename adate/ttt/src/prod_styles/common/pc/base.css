@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/* prod_pc
+============================================================================= */
+
+/***************************************
+   *base
+****************************************/
+html,body {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", meiryo, "メイリオ", "ms pgothic", "ms pゴシック", YuGothic, "游ゴシック", osaka, sans-serif;
+  font-weight: 300;
+  background-color: #151515;
+  color: #FFF;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+}
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/***************************************
+   *helper
+****************************************/
+.hp_pc {
+  display: block!important;
+}
+.hp_tb ,
+.hp_sp ,
+.hp_spTb{
+  display: none !important;
+}
+.hp_mb0 {
+  margin-bottom: 0 !important;
+}
+.hp_tac {
+  text-align: center !important;
+}
+.hp_tal {
+  text-align: left !important;
+}
+.hp_pink {
+  color: #FF55CF;
+  font-weight: 600;
+}
+
+/***************************************
+   js plugin
+****************************************/
+.modal {
+  border-radius: 16px !important;
+  box-shadow:-1px -1px 1px 1px rgba(112,112,112, 0.3) !important;
+  backdrop-filter: blur(30px);
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}
+.modal .modal_ttl{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.modal.bl_modal01,
+.modal.bl_modal02 {
+  width: 100%;
+  max-width: 560px;
+  padding: 0;
+}
+.bl_modal01 .bl_modal01_close,
+.bl_modal02 .bl_modal02_close {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(145deg, #FFFFFF30 100%, #fff 100%) !important;
+  top: -40px;
+  right: -40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50vh;
+}
+.bl_modal01 .bl_modal01_close > a,
+.bl_modal02 .bl_modal02_close > a {
+  color: #fff;
+}
+.bl_modal01_inner,
+.bl_modal02_inner {
+  padding: 25px 55px 40px;
+}
+.bl_modal01_inner .bl_modal01_ttl {
+  font-size: 24px;
+}
+.bl_modal01_inner .bl_modal01_img,
+.bl_modal01_inner .bl_modal01_ttl {
+  text-align: center;
+}
+.bl_modal01_inner .bl_modal01_img > img,
+.bl_modal01_inner .bl_modal01_ttl {
+  margin-bottom: 25px;
+}
+.bl_modal01_txt {
+  font-size: 14px;
+  line-height:1.57;
+}
+

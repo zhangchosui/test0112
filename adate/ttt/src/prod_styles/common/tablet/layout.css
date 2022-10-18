@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/* prod_tablet
+============================================================================= */
+
+/***************************************
+   wrapper
+****************************************/
+.ly_wrapper {
+  min-height: 100vh;
+  padding-bottom: 66px;
+}
+
+/***************************************
+   mainエリア
+****************************************/
+.ly_main {
+  min-height: calc(100vh - 66px);
+}
+
+/***************************************
+   innner
+****************************************/
+/*720px固定画面時*/
+.ly_fixedCont_inner {
+  max-width: 760px;
+  padding-left: 4.103vw;
+  padding-right: 4.103vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*リキッド画面時*/
+.ly_liquidCont_inner {
+  padding-left: 4.103vw;
+  padding-right: 4.103vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*リキッド左のみ空白の画面時*/
+.ly_liquidCont_inner.ly_liquidCont_inner__left {
+  padding-right: 0;
+}
+
+/***************************************
+   仮header
+****************************************/
+.ly_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 48px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.ly_header_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+/***************************************
+   仮gNav
+****************************************/
+.ly_gNav {
+  margin-top: auto;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  bottom: 0;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+.ly_gNav_inner {
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 66px;/*一時的に本番数値*/
+}
+
+/***************************************
+   その他
+****************************************/
+/*.ly_function {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  bottom: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+.ly_function li {
+  margin-right: 2%;
+  width: 160px;
+}
+.ly_function li:last-child {
+  margin-right: 0;
+}
+.ly_function .el_search {
+  display: none;
+}
+.ly_function .el_roundedBtn {
+  padding: 10px 10px !important;
+  line-height: 13px;
+}*/

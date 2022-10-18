@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* prod_tablet
+============================================================================= */
+
+/***************************************
+   仮header
+****************************************/
+.bl_headerUtils {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bl_headerIconUnit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/***************************************
+   仮gNav
+****************************************/
+.bl_gNavUnit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bl_gNavUnit > li {
+  text-align: center;
+  width: 100%;
+}
+
+/***************************************
+   *その他
+****************************************/
+/*チェックボタン縦並び*/
+.bl_checkBoxUnit {
+  display: inline-flex;
+  flex-direction: column;
+}
+.bl_checkBoxUnit .el_checkBox:not(:last-child) {
+  margin-bottom: 16px;
+}
+/*ラジオボタン横並び*/
+.bl_radioBtnFx .el_radioBtn:not(:last-child) {
+  margin-right: 16px;
+}

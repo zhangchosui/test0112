@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>E_Button</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/css-wipe.css">
+    <link rel="stylesheet" href="../../styles/common/sp/base.css" media="screen and (max-width:520px)">
+    <link rel="stylesheet" href="../../styles/common/tablet/base.css" media="screen and (min-width:521px) and (max-width:1024px)">
+    <link rel="stylesheet" href="../../styles/common/pc/base.css" media="screen and (min-width:1025px)">
+    <link rel="stylesheet" href="e_button.css">
+  </head>
+  <body>
+    <!--※縦並びで使う際は、<ul></ul>にe_button_column（ボタン縦並び用の共通class名、centerと間にbottomが入る）を使う。（E_1　Primaryボタン（アイコンなし）参照）-->
+    <!--※縦並びの組み合わせに応じて<li></li>のなかのボタンを各自で変える-->
+    <!--一つのボタンをcenterにしたい場合は、各自で<div>を作ってそこにe_button_columnのクラス名をいれてもらう-->
+
+    <!-- E_1　Primaryボタン（アイコンなし）-->
+    <br/><br/>
+    <!--pc-->
+    <ul class="e_button_column">
+      <li>
+        <button class="e_1_primaryBtn_noIcon">テキストテキスト</button>
+      </li>
+      <li>
+        <button class="e_1_primaryBtn_noIcon">テキストテキスト</button>
+      </li>
+    </ul>
+    <!--境目-->
+    <br/><br/><br/>
+    <!--sp-->
+    <ul class="e_button_column">
+      <li>
+        <button class="e_1_primaryBtn_noIcon">テキストテキスト</button>
+      </li>
+      <li>
+        <button class="e_1_primaryBtn_noIcon">テキストテキスト</button>
+      </li>
+    </ul>
+
+    <!-- E_1　Primaryボタン（デフォルト）-->
+    <br/><br/>
+    <!--sp-->
+    <button class="e_1_primaryBtn_default"><span class="e_1_primaryBtn_default_txt">テキストテキスト</span></button>
+
+    <!-- E_2　Primaryミニボタン（アイコンなし）-->
+    <br/><br/>
+    <!--sp-->
+    <button class="e_2_primaryminiBtn_noIcon">テキストテキスト</button>
+
+    <!-- E_2　Primaryミニボタン（デフォルト）-->
+    <br/><br/>
+    <!--sp-->
+    <button class="e_2_primaryminiBtn_default"><span class="e_2_primaryminiBtn_default_txt">テキストテキスト</span></button>
+    <!--境目-->
+    <br/><br/><br/>
+
+    <!-- E_3　Secondaryボタン（アイコンなし）-->
+    <!--pc-->
+    <button class="e_3_secondaryBtn_noIcon">テキストテキスト</button>
+    <!--境目-->
+    <br/><br/><br/>
+    <!--sp-->
+    <button class="e_3_secondaryBtn_noIcon">テキストテキスト</button>
+
+    <!-- E_3　Secondaryボタン（デフォルト）-->
+    <br/><br/><br/>
+    <!--sp-->
+    <button class="e_3_secondaryBtn_default_playBtn"><span class="e_3_secondaryBtn_default_playBtn_txt">テキストテキスト</span></button>
+
+    <!--境目-->
+    <br/>
+    <!--境目-->
+
+    <button class="e_3_secondaryBtn_default_link"><span class="e_3_secondaryBtn_default_link_txt">テキストテキスト</span></button>
+
+    <!-- E_4　Secondaryミニボタン（アイコンなし）-->
+    <br/><br/>
+    <!--sp-->
+    <button class="e_4_secondaryminiBtn_noIcon">テキストテキスト</button>
+
+    <!-- E_4　Secondaryミニボタン（デフォルト）-->
+    <br/><br/>
+    <!--sp-->
+    <button class="e_4_secondaryminiBtn_default"><span class="e_4_secondaryminiBtn_default_txt">テキストテキスト</span></button>
+    <!--境目-->
+    <br/><br/><br/>
+
+    <!-- E_5　Tertiaryボタン（アイコンなし）-->
+    <!--pc-->
+    <button class="e_5_tertiaryBtn_noIcon">テキストテキスト</button>
+    <!--境目-->
+    <br/><br/>
+
+    <!--sp-->
+    <button class="e_5_tertiaryBtn_noIcon">テキストテキスト</button>
+    <!--境目-->
+    <br/><br/>
+
+    <!-- E_5　Tertiaryボタン（デフォルト）-->
+    <button class="e_5_tertiaryBtn_default"><span class="e_5_tertiaryBtn_default_txt">テキストテキスト</span></button>
+    <!--境目-->
+    <br/><br/><br/>
+
+    <!-- E_6　Tertiaryミニボタン（アイコンなし）-->
+    <button class="e_6_tertiaryminiBtn_noIcon">テキストテキスト</button>
+    <!--境目-->
+    <br/><br/>
+
+    <!-- E_6　Tertiaryミニボタン（デフォルト）-->
+    <button class="e_6_tertiaryminiBtn_default"><span class="e_6_tertiaryminiBtn_default_txt">テキストテキスト</span></button>
+    <!--境目-->
+    <br/><br/>
+
+    <!-- E_6　Tertiaryタイニーボタン-->
+    <!--<sp><pc>-->
+    <ul class="e_6_tertiarytinyBtn_fx">
+      <li>
+        <button class="e_6_tertiarytinyBtn_white">レンタル</button>
+      </li>
+      <li>
+        <button class="e_6_tertiarytinyBtn_opacity">レンタル</button>
+      </li>
+    </ul>
+    <!--境目-->
+    <br/><br/><br/>
+
+    <!-- E_7　Quaternaryボタン（アイコンなし）-->
+    <!--sp-->
+    <button class="e_7_QuaternaryBtn_noIcon">テキストテキスト</button>
+    <!--境目-->
+    <br/><br/>
+
+    <!-- E_7　Quaternaryボタン（デフォルト）-->
+    <!--sp-->
+    <button class="e_7_QuaternaryBtn_default"><span class="e_7_QuaternaryBtn_default_txt">テキストテキスト</span></button>
+    <!--境目-->
+    <br/><br/><br/>
+
+    <!-- E_8　Quaternaryボタン（アイコンなし）-->
+    <!--sp-->
+    <button class="e_8_QuaternaryBtn_noIcon">テキストテキスト</button>
+    <!--境目-->
+    <br/><br/>
+
+    <!-- E_8　Quaternaryボタン（デフォルト）-->
+    <!--sp-->
+    <button class="e_8_QuaternaryBtn_default"><span class="e_8_QuaternaryBtn_default_txt">テキストテキスト</span></button>
+    <!--境目-->
+    <br/><br/>
+
+    <!-- E_8　Quaternaryボタン（非協調）-->
+    <!--sp-->
+    <button class="e_8_QuaternaryBtn_noAccent">テキストテキスト</button>
+    <!--境目-->
+    <br/><br/><br/>
+
+    <!-- E_9　アイコン付きボタン-->
+    <!--sp-->
+    <div class="e_9_iconBtn">
+      <button>絞り込み</button>
+    </div>
+    <!--境目-->
+    <br/><br/><br/>
+
+    <!-- E_10　アコーディオン-->
+    <!--sp-->
+    <dl class="e_10_accordion">
+      <dt>
+        <button class="e_10_accordionBtn">見出しテキスト見出しテキスト</button>
+      </dt>
+      <dd class="e_10_accordion_body">
+        <p>
+          アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開
+        </p>
+      </dd>
+      <dt>
+        <button class="e_10_accordionBtn is_active">見出しテキスト見出しテキスト</button>
+      </dt>
+      <dd class="e_10_accordion_body is_active">
+        <p>
+          アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開
+        </p>
+      </dd>
+      <dt>
+        <button class="e_10_accordionBtn is_active">見出しテキスト見出しテキスト</button>
+      </dt>
+      <dd class="e_10_accordion_body is_active">
+        <p>
+          アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開アコーディオン開
+        </p>
+      </dd>
+    </dl>
+
+    <!--境目-->
+    <br/><br/><br/>
+
+    <!-- E_11　プルダウン-->
+    <!--sp-->
+    <div class="e11_pulldown">
+      <button>テキストテキストテキストテキスト</button>
+    </div>
+    <!--境目-->
+    <br/><br/><br/>
+<!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  使える↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+   
+
+
+
+
+
+<!-- E_12　設定リスト（ラジオボタン）-->
+    <!--sp-->
+    
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_13　タブ-->
+    <!--sp-->
+<!--    <div class="e_13_tab">
+      <input id="e_13_tab1" type="radio" name="e_13_tab" class="e_13_tab_item" checked="">
+      <label for="e_13_tab1">タイムライン</label>
+      <input id="e_13_tab2" type="radio" name="e_13_tab" class="e_13_tab_item">
+      <label for="e_13_tab2">おすすめ</label>
+    </div>-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_14　タブ_分割（数字付き）-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_15　タブ_カテゴリ-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_16　セグメントコントロール-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_17　マイリストタブ-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/>
+    <!-- E_17　マイリストタブ（追従時）-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_18　フォローボタン-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_19　ミュートボタン-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_20　広告なし再生ボタン-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_21　広告スキップボタン-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_22　アンクリッカブルボタン-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_23　Secondaryボタン_価格-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_24　Tertiaryボタン_値段表記-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_25　ラジオボタン_アコーディオン付き-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/>
+    <!-- E_25　ラジオボタン_アコーディオン付き（選択中）-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_26　詳細を閉じるボタン-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_27　Primary タイニーボタン-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+    <!-- E_28　アンクリッカブル タイニーボタン-->
+    <!--sp-->
+    <!--境目-->
+    <br/><br/><br/>
+  </body>
+</html>

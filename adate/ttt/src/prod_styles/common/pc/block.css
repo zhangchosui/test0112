@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/* prod_pc
+============================================================================= */
+
+/***************************************
+   仮header
+****************************************/
+.bl_headerUtils {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/***************************************
+   仮footer
+****************************************/
+.bl_footerUtils {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  /*justify-content: space-between;*/
+  margin-bottom: 30px;
+}
+.bl_footerNavUnit {
+  display: flex;
+  width: 51.5%;
+}
+.bl_footerNavUnit__col3 > .bl_footerNav {
+  width: 31.707%;
+}
+.bl_footerNav {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.bl_footerNav > li {
+  margin-bottom: 14px;
+}
+.bl_footerSns {
+  display: flex;
+  margin-left: auto;
+}
+.bl_footerSns_item:not(:last-child) {
+  margin-right: 14px;
+}
+.bl_footerSns_item > a {
+  display: block;
+}
+.bl_footerPermission {
+  display: flex;
+  margin-bottom: 34px;
+}
+.bl_footerPermission > .bl_footerPermission_item {
+  width: 328px;
+}
+.bl_footerPermission > .bl_footerPermission_item:last-child {
+  margin-right: 0;
+}
+.bl_footerPermission_item {
+  display: flex;
+  align-items: flex-start;
+}
+.bl_footerPermission__imgWrapper {
+  min-width: 48px;
+}
+.bl_footerPermission_txt {
+  font-size: 10px;
+  line-height: 1.8;
+  margin-left: 10px;
+}
+.bl_dServiceUnit {
+  display: flex;
+}
+.bl_dServiceUnit > li:not(:last-child) {
+  margin-right: 8px;
+}
+.bl_dServiceUnit > li > a {
+  display: block;
+}
+
+/***************************************
+   仮Breadcrumb
+****************************************/
+.bl_footerBreadcrumb_wrapper {
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding: 16px 40px;
+}
+.bl_footerBreadcrumb {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+.bl_footerBreadcrumb li a {
+  /*color: #3B4043;*/
+}
+.bl_footerBreadcrumb li:last-child a {
+  /*color: #999999;*/
+}
+.bl_footerBreadcrumb li::after {
+  content: ">";
+  padding: 0 8px;
+  /*color: #999999;*/
+}
+.bl_footerBreadcrumb li:last-child::after {
+  content: '';
+}
+
+/***************************************
+   仮gNav
+****************************************/
+.bl_gNavUtils {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bl_gNavUtils_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  height: 70px;
+}
+.bl_gNavIconUnit > li {
+  text-align: center;
+  width: 60px;
+}
+.bl_gNavIconUnit > li:not(:last-child) {
+  margin-bottom: 30px;
+}
+.bl_gNavUtils_point {
+  display: none;
+}
+
+/***************************************
+   *その他
+****************************************/
+/*チェックボタン縦並び*/
+.bl_checkBoxUnit {
+  display: inline-flex;
+  flex-direction: column;
+}
+.bl_checkBoxUnit .el_checkBox:not(:last-child) {
+  margin-bottom: 16px;
+}
+/*ラジオボタン横並び*/
+.bl_radioBtnFx .el_radioBtn:not(:last-child) {
+    margin-right: 16px;
+}

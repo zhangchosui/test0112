@@ -1,0 +1,634 @@
+@charset "UTF-8";
+
+/* pc
+============================================================================= */
+/***************************************
+    E_1　Primaryボタン（アイコンなし)
+****************************************/
+.e_button_column {
+    text-align: center;
+}
+.e_button_column li:not(:last-child) {
+    margin-bottom: 16px;
+}
+.e_1_primaryBtn_noIcon {
+    display: inline-block;
+    padding: 16px 52px;
+    width: 320px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.26px;
+    border-radius: 50vh;
+    background:transparent linear-gradient(90deg, #E528CF 0%, #FE8B29 100%) 0% 0% no-repeat padding-box;
+}
+/***************************************
+        E_3　Secondaryボタン（アイコンなし）
+****************************************/
+.e_3_secondaryBtn_noIcon {
+    display: inline-block;
+    padding: 16px 52px;
+    width: 320px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.26px;
+    border-radius: 50vh;
+    background-color: #FFFFFF;
+}
+/***************************************
+        E_5　Secondaryボタン（アイコンなし）
+****************************************/
+.e_5_tertiaryBtn_noIcon {
+    display: inline-block;
+    padding: 16px 52px;
+    width: 320px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.26px;
+    border-radius: 50vh;
+    border: 1px solid rgba(225,225,225,0.3);
+    background: transparent;
+    opacity: 1;
+}
+/**************************************
+        E_6　Tertiaryタイニーボタン
+    ***************************************/
+.e_6_tertiarytinyBtn_fx {
+    display: flex;
+}
+.e_6_tertiarytinyBtn_fx li:not(:last-child){
+    margin-right: 30px;
+}
+.e_6_tertiarytinyBtn_white {
+    display: inline-block;
+    padding: 10px 7px;
+    width: 64px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 50vh;
+    border: 1px solid rgba(225,225,225,0.3);
+    background: transparent;
+    opacity: 1;
+}
+.e_6_tertiarytinyBtn_opacity {
+    display: inline-block;
+    padding: 10px 7px;
+    width: 64px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 50vh;
+    border: 1px solid rgba(225,225,225,0.3);
+    background: transparent;
+    opacity: 0.3;
+}
+/*1024px以下*/
+/*=============================================================================*/
+@media screen and (max-width:1024px) {
+    /**************************************
+        E_1　Primaryボタン（アイコンなし)
+    ***************************************/
+    .e_button_column　{
+        text-align: center;
+    }
+    .e_button_column li:not(:last-child) {
+        margin-bottom: 16px;
+    }
+    .e_1_primaryBtn_noIcon {
+        display: inline-block;
+        padding: 16px 52px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.26px;
+        border-radius: 50vh;
+        background:transparent linear-gradient(90deg, #E528CF 0%, #FE8B29 100%) 0% 0% no-repeat padding-box;
+    }
+    /**************************************
+         E_1　Primaryボタン（デフォルト）
+     ***************************************/
+    .e_1_primaryBtn_default span{
+        margin-left: 23px;
+    }
+    .e_1_primaryBtn_default button {
+        display: inline-block;
+        padding: 16px 52px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 50vh;
+        background:transparent linear-gradient(90deg, #E528CF 0%, #FE8B29 100%) 0% 0% no-repeat padding-box;
+        position: relative;
+    }
+    .e_1_primaryBtn_default button::before {
+        content: url(../../../assets/img/svg/ico/icon_playBtn.svg);
+        position: absolute;
+        left: 27%;
+        top: 28%;
+    }
+    /**************************************
+        E_2　Primaryミニボタン（アイコンなし）
+    ***************************************/
+    .e_2_primaryminiBtn_noIcon {
+        display: inline-block;
+        padding: 11px 16px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.26px;
+        border-radius: 50vh;
+        background:transparent linear-gradient(90deg, #E528CF 0%, #FE8B29 100%) 0% 0% no-repeat padding-box;
+    }
+    /**************************************
+        E_2　Primaryミニボタン（デフォルト）
+    ***************************************/
+    .e_2_primaryminiBtn_default span{
+        margin-left: 23px;
+    }
+    .e_2_primaryminiBtn_default button{
+        display: inline-block;
+        padding: 11px 16px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 50vh;
+        background:transparent linear-gradient(90deg, #E528CF 0%, #FE8B29 100%) 0% 0% no-repeat padding-box;
+        position: relative;
+    }
+    .e_2_primaryminiBtn_default button::before {
+        content: url(../../../assets/img/svg/ico/icon_playBtn.svg);
+        position: absolute;
+        left: 29.3%;
+        top: 23%;
+    }
+    /**************************************
+        E_3　Secondaryボタン（アイコンなし）
+    ***************************************/
+    .e_3_secondaryBtn_noIcon {
+        display: inline-block;
+        padding: 16px 52px;
+        width: 358px;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.26px;
+        border-radius: 50vh;
+        background-color: #FFFFFF;
+    }
+    /**************************************
+        E_3　Secondaryボタン（デフォルト）
+    ***************************************/
+    .e_3_secondaryBtn_default_playBtn span{
+        margin-left: 23px;
+    }
+    .e_3_secondaryBtn_default_link span{
+        margin-right: 34px;
+    }
+    .e_3_secondaryBtn_default_playBtn button{
+        display: inline-block;
+        padding: 16px 52px;
+        width: 358px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 50vh;
+        background-color: #FFFFFF;
+        position: relative;
+    }
+    .e_3_secondaryBtn_default_link button{
+        display: inline-block;
+        padding: 16px 52px;
+        width: 358px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 50vh;
+        background-color: #FFFFFF;
+        position: relative;
+    }
+    .e_3_secondaryBtn_default_playBtn button::before {
+        content: url(../../../assets/img/svg/ico/icon_playBtn_black.svg);
+        position: absolute;
+        left: 27%;
+        top: 28%;
+    }
+    .e_3_secondaryBtn_default_link button::after {
+        content: url(../../../assets/img/svg/ico/icon_secondaryBtn_link.svg);
+        position: absolute;
+        right: 28.6%;
+        top: 29%;
+    }
+    /**************************************
+        E_4　Secondaryミニボタン（アイコンなし）
+    ***************************************/
+    .e_4_secondaryminiBtn_noIcon {
+        display: inline-block;
+        padding: 11px 16px;
+        width: 358px;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.26px;
+        border-radius: 50vh;
+        background-color: #FFFFFF;
+    }
+    /**************************************
+        E_4　Secondaryミニボタン（デフォルト）
+    ***************************************/
+    .e_4_secondaryminiBtn_default span {
+        margin-left: 23px;
+    }
+    .e_4_secondaryminiBtn_default button{
+        display: inline-block;
+        padding: 11px 16px;
+        width: 358px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 50vh;
+        background-color: #FFFFFF;
+        position: relative;
+    }
+    .e_4_secondaryminiBtn_default button::before {
+        content: url(../../../assets/img/svg/ico/icon_playBtn_black.svg);
+        position: absolute;
+        left: 29.3%;
+        top: 23%;
+    }
+    /**************************************
+        E_5　Tertiaryボタン（アイコンなし）
+    ***************************************/
+    .e_5_tertiaryBtn_noIcon {
+        display: inline-block;
+        padding: 16px 52px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.26px;
+        border-radius: 50vh;
+        border: 1px solid rgba(225,225,225,0.3);
+        background: transparent;
+        opacity: 1;
+    }
+    /**************************************
+        E_5　Tertiaryボタン（デフォルト）
+    ***************************************/
+    .e_5_tertiaryBtn_default span {
+        margin-left: 23px;
+    }
+    .e_5_tertiaryBtn_default button {
+        display: inline-block;
+        padding: 16px 52px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 50vh;
+        border: 1px solid rgba(225,225,225,0.3);
+        background: transparent;
+        opacity: 1;
+        position: relative;
+    }
+    .e_5_tertiaryBtn_default button::before {
+        content: url(../../../assets/img/svg/ico/icon_download.svg);
+        position: absolute;
+        left: 27%;
+        top: 28%;
+    }
+    /**************************************
+        E_6　Tertiaryミニボタン（アイコンなし）
+    ***************************************/
+    .e_6_tertiaryminiBtn_noIcon {
+        display: inline-block;
+        padding: 11px 16px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.26px;
+        border-radius: 50vh;
+        border: 1px solid rgba(225,225,225,0.3);
+        background: transparent;
+        opacity: 1;
+    }
+    /**************************************
+        E_6　Tertiaryミニボタン（デフォルト）
+    ***************************************/
+    .e_6_tertiaryminiBtn_default span {
+        margin-left: 23px;
+    }
+    .e_6_tertiaryminiBtn_default button {
+        display: inline-block;
+        padding: 11px 16px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 50vh;
+        border: 1px solid rgba(225,225,225,0.3);
+        background: transparent;
+        opacity: 1;
+        position: relative;
+    }
+    .e_6_tertiaryminiBtn_default button::before {
+        content: url(../../../assets/img/svg/ico/icon_download.svg);
+        position: absolute;
+        left: 29.3%;
+        top: 23%;
+    }
+    /**************************************
+        E_6　Tertiaryタイニーボタン
+    ***************************************/
+    .e_6_tertiarytinyBtn_fx {
+        display: flex;
+    }
+    .e_6_tertiarytinyBtn_fx li:not(:last-child){
+        margin-right: 30px;
+    }
+    .e_6_tertiarytinyBtn_white {
+        display: inline-block;
+        padding: 10px 7px;
+        width: 64px;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 50vh;
+        border: 1px solid rgba(225,225,225,0.3);
+        background: transparent;
+        opacity: 1;
+    }
+    .e_6_tertiarytinyBtn_opacity {
+        display: inline-block;
+        padding: 10px 7px;
+        width: 64px;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 50vh;
+        border: 1px solid rgba(225,225,225,0.3);
+        background: transparent;
+        opacity: 0.3;
+    }
+    /**************************************
+        E_7　Quaternaryボタン（アイコンなし）
+    ***************************************/
+    .e_7_QuaternaryBtn_noIcon {
+        display: inline-block;
+        padding: 16px 52px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.26px;
+        border-radius: 50vh;
+        background: transparent;
+        opacity: 1;
+    }
+    /**************************************
+        E_7　Quaternaryボタン（デフォルト）
+    ***************************************/
+    .e_7_QuaternaryBtn_default span {
+        margin-left: 23px;
+    }
+    .e_7_QuaternaryBtn_default button {
+        display: inline-block;
+        padding: 16px 52px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 50vh;
+        background: transparent;
+        opacity: 1;
+        position: relative;
+    }
+    .e_7_QuaternaryBtn_default button::before {
+        content: url(../../../assets/img/svg/ico/icon_download.svg);
+        position: absolute;
+        left: 27%;
+        top: 28%;
+    }
+    /**************************************
+        E_8　Quaternaryミニボタン（アイコンなし）
+    ***************************************/
+    .e_8_QuaternaryBtn_noIcon {
+        display: inline-block;
+        padding: 11px 16px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.26px;
+        border-radius: 50vh;
+        background: transparent;
+        opacity: 1;
+    }
+    /**************************************
+        E_8　Quaternaryミニボタン（デフォルト）
+    ***************************************/
+    .e_8_QuaternaryBtn_default span {
+        margin-left: 23px;
+    }
+    .e_8_QuaternaryBtn_default button {
+        display: inline-block;
+        padding: 11px 16px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 50vh;
+        background: transparent;
+        opacity: 1;
+        position: relative;
+    }
+    .e_8_QuaternaryBtn_default button::before {
+        content: url(../../../assets/img/svg/ico/icon_download.svg);
+        position: absolute;
+        left: 27%;
+        top: 28%;
+    }
+    /**************************************
+        E_8　Quaternaryミニボタン（非強調）noAccent
+    ***************************************/
+    .e_8_QuaternaryBtn_noAccent {
+        display: inline-block;
+        padding: 11px 16px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 14px;
+        letter-spacing: 0.26px;
+        border-radius: 50vh;
+        background: transparent;
+        opacity: 1;
+    }
+    /**************************************
+        E_9　アイコン付きボタン
+    ***************************************/
+    .e_9_iconBtn {
+        width: 88px;
+        height: 24px;
+        background-image: url(../../../assets/img/svg/ico/icon_filter_pink.svg);
+        background-repeat: no-repeat;
+        background-position: center left;
+        display: flex;
+    }
+    .e_9_iconBtn button{
+        margin-left: 32px;
+        font-size: 14px;
+        color: #ffffff;
+    }
+    /**************************************
+        E_10　アコーディオン
+    ***************************************/
+    .e_10_accordion dt,
+    .e_10_accordion dd:not(:last-child) {
+        margin-bottom: 16px;
+    }
+    .e_10_accordion_close {
+        display: none;
+    }
+    .e_10_accordion_open {
+        padding: 0px 8px 8px 8px;
+        text-align: left;
+    }
+    .e_10_accordion_open p{
+        width: 342px;
+        text-align: left;
+        line-height: 1.458;
+    }
+    .e_10_accordion button {
+        position: relative;
+        display: flex;
+        padding: 12px 15.33px 12px 12px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius:2vh;
+        border: 1px solid rgba(225,225,225,0.3);
+        background: transparent;
+        opacity: 1;
+    }
+    .e_10_accordion_down::after {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border: 0;
+        border-top: solid 2px #fff;
+        border-right: solid 2px #fff;
+        margin-top: -6px;
+        position: absolute;
+        top: 50%;
+        right: 16px;
+        transform: rotate(135deg);
+    }
+    .e_10_accordion_up::after {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border: 0;
+        border-top: solid 2px #fff;
+        border-right: solid 2px #fff;
+        margin-top: -3px;
+        position: absolute;
+        top: 50%;
+        right: 16px;
+        transform: rotate(-45deg);
+    }
+    /**************************************
+        E_11　プルダウン
+    ***************************************/
+    .e11_pulldown button {
+        position: relative;
+        display: flex;
+        padding: 12px 15.33px 12px 12px;
+        width: 358px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius:2vh;
+        border: 1px solid rgba(225,225,225,0.3);
+        background: transparent;
+        opacity: 1;
+    }
+    .e11_pulldown button::after {
+        content: url(../../../assets/img/svg/ico/icon_pulldownBtn.svg);
+        position: absolute;
+        right: 13px;
+    }
+    /**************************************
+        E_12　設定リスト（ラジオボタン）
+    ***************************************/
+    /**************************************
+        E_13　タブ
+    ***************************************/
+/*    .e_13_tab {
+        display: flex;
+        width: 224px;
+        text-align: center;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .e_13_tab_item {
+        display: none;
+    }
+
+    .e_13_tab_item+label {
+        cursor: pointer;
+        white-space: nowrap;
+        color: #ffffff;
+        opacity: 0.6;
+        font-size: 16px;
+        width: 96px;
+    }
+    .e_13_tab_item:checked+label {
+        color: #ffffff;
+        opacity: 1;
+        font-size: 16px;
+        width: 96px;
+    }
+    .e_13_tab_item:checked+label::after {
+        background-color: #FA2ABF;
+        border-radius: 5px; 
+        content: "";
+        display: block;
+        height: 4px;
+        margin-top: 12px;
+        transition: .3s ease-out;
+        -webkit-transition: .3s ease-out;
+        display: block;
+    }
+    .e_13_tab_item:checked+label+.e_13_tab_content {
+        display: block;
+        color: #333;
+    }*/
+
+
+
+
+    /**************************************
+        E_14　タブ_分割（数字付き）
+    ***************************************/
+    /**************************************
+        E_15　タブ_カテゴリ
+    ***************************************/
+    /**************************************
+        E_16　セグメントコントロール
+    ***************************************/
+    /**************************************
+        E_17　マイリストタブ
+    ***************************************/
+    /**************************************
+        E_17　マイリストタブ（追従時）
+    ***************************************/
+
+}
+
+/*520px以下
+============================================================================= */
+@media screen and (max-width:520px) {
+
+}
